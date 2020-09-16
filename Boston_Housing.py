@@ -34,8 +34,9 @@ def main(path='/Users/CJ/Documents/Kaggle/Boston housing prices',
     
     train_categorical = train[categorical_columns]
     
-    train_categorical = pd.get_dummies(train[train.columns[:36]) # Dont do this on all columns, only categorial!!!
-    train_continues = 
+    train_categorical = pd.get_dummies(train[train.columns[:36]]) # Dont do this on all columns, only categorial!!!
+    # WHAT HAPPENS HERE? 
+    #train_continues = 
                                              
     #test = pd.get_dummies(test)
     
